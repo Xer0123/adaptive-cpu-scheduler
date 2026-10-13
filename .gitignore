@@ -1,0 +1,11 @@
+.venv/
+.vendor/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.py[cod]
+results/models/
+results/experiments/
+results/validation*/
+results/heldout*/
+results/ppo_evaluation/

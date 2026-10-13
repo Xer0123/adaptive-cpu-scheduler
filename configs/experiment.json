@@ -1,0 +1,16 @@
+{
+  "process_count": 30,
+  "training_scenario": "mixed",
+  "training_seed": 11,
+  "training_timesteps": 50000,
+  "learning_rate": 0.0003,
+  "n_steps": 256,
+  "batch_size": 64,
+  "gamma": 0.99,
+  "validation_scenarios": ["uniform", "priority"],
+  "validation_seeds": [31, 42, 53, 64, 75],
+  "test_scenarios": ["uniform", "mixed", "bursty", "priority", "cpu_intensive"],
+  "test_seeds": [101, 202, 303, 404, 505],
+  "round_robin_quantum": 3,
+  "output_directory": "results/experiments"
+}

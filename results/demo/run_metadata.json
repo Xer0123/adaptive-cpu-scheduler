@@ -1,0 +1,24 @@
+{
+  "python_version": "3.14.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "gymnasium": "1.4.0",
+    "stable-baselines3": "2.9.0",
+    "torch": "2.14.1"
+  },
+  "split": "demo",
+  "scenarios": [
+    "mixed"
+  ],
+  "seeds": [
+    7
+  ],
+  "process_count": 10,
+  "round_robin_quantum": 3.0,
+  "model_path": null,
+  "timing_method": "time.perf_counter_ns around scheduling selection only; simulated CPU time excluded",
+  "context_switch_rule": "count transition between different process IDs when timeline segments are contiguous; exclude initial dispatch and idle transitions"
+}

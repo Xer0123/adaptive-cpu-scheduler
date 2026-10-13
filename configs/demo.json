@@ -1,0 +1,13 @@
+{
+  "process_count": 10,
+  "workload_type": "mixed",
+  "random_seed": 7,
+  "round_robin_quantum": 3,
+  "training_timesteps": 5000,
+  "training_scenario": "mixed",
+  "validation_scenarios": ["uniform", "priority"],
+  "validation_seeds": [31, 42, 53],
+  "test_scenarios": ["uniform", "mixed", "bursty", "priority", "cpu_intensive"],
+  "test_seeds": [101, 202, 303],
+  "output_directory": "results/demo"
+}
